@@ -132,7 +132,7 @@ public class BreakoutGame extends Activity {
             numBricks = 0;
 
             for (int column = 0; column < 8; column++) {
-                for (int row = 0; row < 4; row++) {
+                for (int row = 0; row < 3; row++) {
                     bricks[numBricks] = new Brick(row, column, brickWidth, brickHeight);
                     numBricks++;
                 }
